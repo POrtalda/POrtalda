@@ -1,0 +1,9 @@
+{# Templates/messaggio.txt #}
+
+
+Ciao {{ name }}! 
+
+Sono felice di informarti che hai fatto molto bene al compito di oggi, {{ test_name }}. 
+Hai raggiunto {{ score }} punti su {{ max_score }}. 
+Ci vediamo domani! 
+Prof. Bianchi

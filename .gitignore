@@ -1,0 +1,26 @@
+
+# macos
+.DS_Store
+
+# jupyter notebook server
+.ipynb_checkpoints/
+
+# various virtualenvs
+.venv/
+env/
+
+# compiled python files
+__pycache__/
+*.py[co]
+
+# backup files
+# *~
+
+# vs code
+*.code-workspace
+settings.json
+
+# custom folders
+_tmp/
+_soluzioni/
+.assets/
