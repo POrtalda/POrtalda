@@ -1,0 +1,5 @@
+/* do' queste proprietà a tutti gli span presenti nell' h4 */
+h4 span {
+    font-size: 15px;
+    color: rgb(77, 77, 189);
+}
