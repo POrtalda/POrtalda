@@ -1,0 +1,17 @@
+{% extends "base_block.html" %}
+
+{% block content %}
+
+  <h1>{{ test_name }}, Risultati:</h1>
+  <ul>
+  {% for student in students|sort(attribute="name") %}
+    <li>
+      {% if student.score > 60 %}😊{% else %}☹️{% endif %}
+      <em>{{ student.name }}:</em> {{ student.score }}/{{ max_score }}
+    </li>
+  {% endfor %}
+  </ul>
+
+  {% endblock content %}
+
+

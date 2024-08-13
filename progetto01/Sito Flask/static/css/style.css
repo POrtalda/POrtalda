@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header img {
+    float: right;
+    width: 100px;
+  }
+  
+  nav {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  
